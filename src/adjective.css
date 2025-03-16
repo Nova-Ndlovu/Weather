@@ -191,7 +191,7 @@ main {
 
 .central-display-disc:hover {
   background-image: radial-gradient(
-    rgb(176, 200, 154, 0.1) 0%,
+    rgb(176, 200, 154, 0) 0%,
     rgb(255, 255, 255) 100%
   );
   box-shadow: 0 0 20px rgb(193, 216, 172);
@@ -330,17 +330,4 @@ main {
 
 .reveal {
   display: block;
-}
-
-@media screen and (max-width: 767px) {
-  .present-weather
-    .present-city
-    .present-city-details
-    .forecast
-    .left-display-disc
-    .central-display-disc
-    .right-display-disc
-    .footer-notes {
-    width: min-content;
-  }
 }
