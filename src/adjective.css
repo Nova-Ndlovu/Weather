@@ -216,10 +216,7 @@ main {
 #present-temperature-icon {
   position: relative;
   justify-content: center;
-  background-image: radial-gradient(
-    rgb(255, 255, 255) 0%,
-    rgba(176, 200, 154, 0.8) 100%
-  );
+  background-color: rgb(255, 255, 255);
   width: 140px;
   height: 140px;
   border-radius: 180px;
